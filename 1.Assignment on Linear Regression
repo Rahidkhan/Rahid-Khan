@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 from sklearn import metrics
-test=pd.read_csv(r"C:\Users\onlyp\Documents\SUBLIME_TEXT)
+test=pd.read_csv(r"C:\Users\onlyp\Documents\SUBLIME_TEXT)\test.csv")
 test.describe()#bofore removing Null values
 print(test.shape)
 test = test.dropna()#analyze and drop rows/columns with Null values in different ways
